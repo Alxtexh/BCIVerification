@@ -128,31 +128,31 @@ You can run the project either through:
 
 ## Application Screenshots
 
-![Home page](/BCV/Homepage.png)
+![Home page](/BCIV/Homepage.png)
 <p align="center"><em>Home Page</em></p>
 <br></br>
 
-![Institute Login page](/BCV/Institute%20login%20page.png)
+![Institute Login page](/BCIV/Institute%20login%20page.png)
 <p align="center"><em>Login Page</em></p>
 <br></br>
 
-![Single Certificate generation](/BCV/Single%20cert%20generation.jpg)
+![Single Certificate generation](/BCIV/Single%20cert%20generation.jpg)
 <p align="center"><em>Single Certificate generate</em></p>
 <br></br>
 
-![Bulk Certificate generation](/BCV/bulk%20generation.jpg)
+![Bulk Certificate generation](/BCIV/bulk%20generation.jpg)
 <p align="center"><em>Bulk Certificate generation</em></p>
 <br></br>
 
-![Manage Institution page](/BCV/manage%20institution.jpg)
+![Manage Institution page](/BCIV/manage%20institution.jpg)
 <p align="center"><em>Manage Institution page</em></p>
 <br></br>
 
-![Revoke Certificate page](/BCV/revoke%20certificate%20page.jpg)
+![Revoke Certificate page](/BCIV/revoke%20certificate%20page.jpg)
 <p align="center"><em>Revoke Certificate page</em></p>
 <br></br>
 
-![Verifying Certificate page](/BCV/verifying.png)
+![Verifying Certificate page](/BCIV/verifying.png)
 <p align="center"><em>Verifying Certificate page</em></p>
 <br></br>
 ---
