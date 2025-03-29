@@ -1,5 +1,4 @@
-# BCIVerification
-# A Blockchain based Certificate Issue & verification system in Python, Ganache, Js and Solidity
+# A Blockchain based Certificate verification system in Python, Ganache, Js and Solidity
 
 ## Introduction
 
@@ -24,7 +23,7 @@ The system comprises of 2 main entities:
 
 Clone the repository using the command:
 ```sh
-git clone https://github.com/Alxtexh/BCIVerification.git
+git clone https://github.com/Hacx2/Blockchain-certificate-verification-system.git
 ```
 You can run the project either through:
 - [Local Setup](#local-setup)(Recommended)
@@ -41,7 +40,7 @@ You can run the project either through:
 - **Python version >= 3.9.10**  
   Python version 3.9.10 or higher is recommended but other versions may also work.
 
-- **Globally installed packages for Truffle and Ganache-cli**  
+- **Globally installed packages for Truffle and Ganache-cli to prevent installing again**  
   ```sh
   npm install -g truffle
   ```
@@ -90,8 +89,13 @@ You can run the project either through:
   Note: This institute email and password in the .env file will be used to log in as Institute inside the app.
 
 ### Running the project
-
-1. Use local ganache app/ Use CLI ganache any of your choice(Add the truffle.js file to a new workspace)
+**If using cli ganache ensure the cli runs**
+ '''sh
+  ganache-cli
+  '''
+  **must run on a separate terminal**
+  
+1. Use local ganache app/ Use CLI ganache any of your choice(Add the truffle-config.js file to a new workspace)
     ```sh
     npm install -g truffle
     ```
@@ -125,34 +129,33 @@ You can run the project either through:
 
 ---
 
-
 ## Application Screenshots
 
-![Home page](/BCIV/Homepage.png)
+![Home page](/BCV/Homepage.png)
 <p align="center"><em>Home Page</em></p>
 <br></br>
 
-![Institute Login page](/BCIV/Institute%20login%20page.png)
+![Institute Login page](/BCV/Institute%20login%20page.png)
 <p align="center"><em>Login Page</em></p>
 <br></br>
 
-![Single Certificate generation](/BCIV/Single%20cert%20generation.jpg)
+![Single Certificate generation](/BCV/Single%20cert%20generation.jpg)
 <p align="center"><em>Single Certificate generate</em></p>
 <br></br>
 
-![Bulk Certificate generation](/BCIV/bulk%20generation.jpg)
+![Bulk Certificate generation](/BCV/bulk%20generation.jpg)
 <p align="center"><em>Bulk Certificate generation</em></p>
 <br></br>
 
-![Manage Institution page](/BCIV/manage%20institution.jpg)
+![Manage Institution page](/BCV/manage%20institution.jpg)
 <p align="center"><em>Manage Institution page</em></p>
 <br></br>
 
-![Revoke Certificate page](/BCIV/revoke%20certificate%20page.jpg)
+![Revoke Certificate page](/BCV/revoke%20certificate%20page.jpg)
 <p align="center"><em>Revoke Certificate page</em></p>
 <br></br>
 
-![Verifying Certificate page](/BCIV/verifying.png)
+![Verifying Certificate page](/BCV/verifying.png)
 <p align="center"><em>Verifying Certificate page</em></p>
 <br></br>
 ---
