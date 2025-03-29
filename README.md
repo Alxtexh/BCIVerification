@@ -90,7 +90,11 @@ You can run the project either through:
   Note: This institute email and password in the .env file will be used to log in as Institute inside the app.
 
 ### Running the project
-
+**If using cli ganache ensure the cli runs**
+ ```sh
+  ganache-cli
+  ```
+  **must run on a separate terminal**
 1. Use local ganache app/ Use CLI ganache any of your choice(Add the truffle.js file to a new workspace)
     ```sh
     npm install -g truffle
