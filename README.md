@@ -90,9 +90,9 @@ You can run the project either through:
 
 ### Running the project
 **If using cli ganache ensure the cli runs**
- '''sh
+ ```sh
   ganache-cli
-  '''
+  ```
   **must run on a separate terminal**
   
 1. Use local ganache app/ Use CLI ganache any of your choice(Add the truffle-config.js file to a new workspace)
